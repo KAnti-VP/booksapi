@@ -1,0 +1,27 @@
+npm init -y
+
+package.json fájlban:
+"type": "modul"
+
+"start": "node app.js",
+"dev": "nodemon app.js"
+
+konzolban:
+npm i express
+npm i nodemoön --save-dev
+
+a futtátoshoz:
+npm run dev
+
+szerver leállítása:
+Ctrl + C
+
+feltölteni githunra a konzolból:
+// hozzáadni a stagehez a fájlokat
+git add .
+// kommitolni a staget
+git commit -m"done"
+// feltöltés
+git push
+// ellenőrzés - kimaradhat
+git status
